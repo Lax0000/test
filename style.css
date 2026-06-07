@@ -1,0 +1,137 @@
+body{
+    background:url(https://t4.ftcdn.net/jpg/03/92/25/09/360_F_392250914_2Od8jNRBPgpMu8W29vCh4hiu5EUXbgGU.jpg);
+}
+
+section{
+    color: #3C83F6;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+   justify-content:left
+}
+.nav{
+    color: #3C83F6;
+    font-size: 22px;
+    font-family:sans-serif;
+    text-decoration: none; 
+    /* display:inline-block; */
+    justify-content:right;
+    align-items:center;
+    display: flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+   
+
+a{
+    
+    text-decoration: none;
+    display: block;
+    flex-wrap: wrap;
+    justify-items:end;
+    margin-left: auto;
+    align-items:left; 
+    display: inline;
+    align-content:right;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+
+
+
+
+}
+.container{
+    border: 2px solid rgb(178, 165, 165) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+.button1{
+        /* background-color: #3C83F6; */
+        border-radius: 15px;
+        /* border-color: #3C83F6; */
+        font-size: 22px;
+        border: 2px solid #10161D;
+
+
+    }
+
+    
+.button2{
+        background-color: #489BE3;
+        border-radius: 15px;
+        /* border-color: #3C83F6; */
+        font-size: 22px;
+        line-height: 3.9rm;
+    }
+    .header{
+         font-weight:200px;
+         font-size: x-large;
+         color: aliceblue;
+         margin-top: 125px;
+         
+    }
+    span{
+        color: #4A9EE8;
+    }
+    button{
+        color: #ccd9e3;
+        /* border-color: #4A9EE8; */
+        background-color:#4A9EE8;
+        border-radius:15px;
+        font-size:25px;
+
+    }
+    .lastbtn{
+        border: #3C83F6;
+        color:aliceblue; 
+        background-color: 2px;
+        font-size:22px;
+        font-weight: 100;
+        line-height:1.2px;
+}
+.design{
+    border: 2px solid blue;
+    text-align: center;
+    color: #223a97;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media(max-width:350px){
+    .container{
+        flex-direction:column;
+        text-align: center;
+        padding:10px;
+    }
+    .nav{
+        flex-direction: column;
+        width:100%;
+        gap: 10px;
+        align-items: center;
+    }
+    .nav a{
+        display: block;
+        width:100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .button1,.button2{
+        width:80px;
+        height:50px;
+       
+    }
+
+
+}
+
+
